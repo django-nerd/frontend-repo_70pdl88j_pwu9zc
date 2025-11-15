@@ -83,8 +83,6 @@ function App() {
             >
               {rating >= 4 ? 'Leave a Google Review' : 'Send Feedback'}
             </button>
-
-            <div className="text-xs text-gray-400">For 4-5 star ratings, you'll be redirected to Google to post your review. Lower ratings are shared privately with our team.</div>
           </form>
         ) : (
           <div className="text-center space-y-3">
